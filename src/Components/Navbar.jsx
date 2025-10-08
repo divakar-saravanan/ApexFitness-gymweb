@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.png";
+import Logo from "../assets/Logo.png";
 
 function Navbar() {
   return (
@@ -21,7 +21,7 @@ function Navbar() {
     <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
        
         <img
-          src={logo}
+          src={Logo}
           alt="logo"
           style={{ height: "80px" }}
         />
